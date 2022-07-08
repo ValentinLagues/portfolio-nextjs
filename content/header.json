@@ -1,0 +1,18 @@
+{
+    "en": {
+        "labelHome": "Home",
+        "labelAbout": "About me",
+        "labelSkills": "Skills",
+        "labelProjects": "Projects",
+        "labelContact": "Contact",
+        "options": "Options"
+    },
+    "fr": {
+        "labelHome": "Accueil",
+        "labelAbout": "A propos",
+        "labelSkills": "Competences",
+        "labelProjects": "Projets",
+        "labelContact": "Contact",
+        "options": "Options"
+    }
+}

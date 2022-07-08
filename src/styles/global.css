@@ -1,9 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+  @font-face {
+    font-family: "Retro";
+    src: url("../../public/fonts/Retro.ttf");
+  }
+
+  @font-face {
+    font-family: "RoadRage";
+    src: url("../../public/fonts/RoadRage.otf");
+  }
+
+  @font-face {
+    font-family: "SOR2BW";
+    src: url("../../public/fonts/SOR2BW.ttf");
+  }
+  
+  @font-face {
+    font-family: "SOR2W";
+    src: url("../../public/fonts/SOR2W.ttf");
+  }
+
+/* neon effects */
+@keyframes neon {
+  0%{
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 42px rgb(230, 18, 124),
+      0 0 77px rgb(230, 18, 124),
+      0 0 100px rgb(230, 18, 124);
+  }
+  50% {
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 32px rgb(230, 18, 124),
+      0 0 87px rgb(230, 18, 124),
+      0 0 120px rgb(230, 18, 124);
+  }
+  }
+
+  /* effets neon clignotants */
+  @keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(230, 18, 124),
+        0 0 60px rgb(230, 18, 124),
+        0 0 80px rgb(230, 18, 124),
+        0 0 90px rgb(230, 18, 124),
+        0 0 100px rgb(230, 18, 124);
+      }
+    20%, 24%, 55% {        
+      text-shadow: none;
+      }    
+    }
+
 html,
 body {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-        "Noto Color Emoji";
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.mainTitle {
+  text-shadow:
+0 0 7px #fff,
+0 0 10px #fff,
+0 0 42px rgb(230, 18, 124),
+0 0 77px rgb(230, 18, 124),
+0 0 100px rgb(230, 18, 124);
+animation: neon 0.5s infinite linear;
+font-family: RoadRage;
+justify-content: center;
+}
+
+.title {
+text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 42px rgb(230, 18, 124),
+  0 0 77px rgb(230, 18, 124),
+  0 0 100px rgb(230, 18, 124);
+color: white;
+animation: neon 0.5s infinite linear;
+font-family: SOR2BW;
+justify-content: center;
+}
+
+.flickertitle {
+  text-decoration: none;
+  color: white;
+  font-family: SOR2BW;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 42px rgb(230, 18, 124),
+    0 0 77px rgb(230, 18, 124),
+    0 0 100px rgb(230, 18, 124);
+  animation: flicker 3s infinite alternate;
+  justify-content: center;
+}
+
+.flickertitle2 {
+  text-decoration: none;
+  color: white;
+  font-family: SOR2BW;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 42px rgb(230, 18, 124),
+    0 0 77px rgb(230, 18, 124),
+    0 0 100px rgb(230, 18, 124);
+  animation: flicker 5s infinite alternate;
+  justify-content: center;
+}
+
+.navbartitle {
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 42px rgb(230, 18, 124),
+  0 0 77px rgb(230, 18, 124),
+  0 0 100px rgb(230, 18, 124);
+color: white;
+animation: neon 0.5s infinite linear;
+font-family: SOR2W;
+justify-content: center;
+}
+
+.navbarflickertitle {
+  text-decoration: none;
+  color: white;
+  font-family: SOR2W;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 42px rgb(230, 18, 124),
+    0 0 77px rgb(230, 18, 124),
+    0 0 100px rgb(230, 18, 124);
+  animation: flicker 5s infinite alternate;
+  justify-content: center;
+}
+
+.navbarflickertitle2 {
+  text-decoration: none;
+  color: white;
+  font-family: SOR2W;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 42px rgb(230, 18, 124),
+    0 0 77px rgb(230, 18, 124),
+    0 0 100px rgb(230, 18, 124);
+  animation: flicker 3s infinite alternate;
+  justify-content: center;
+}
+
+.arrow {
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 42px rgb(230, 18, 124),
+    0 0 77px rgb(230, 18, 124),
+    0 0 100px rgb(230, 18, 124);
+  color: white;
+  animation: neon 0.5s infinite linear;
+  font-family: Retro;
+  }

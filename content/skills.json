@@ -1,0 +1,14 @@
+{
+    "en": {
+        "title": "SKILLS",
+        "player": "Select player",
+        "softSkills": "SOFT SKILLS",
+        "hardSkills": "DEVELOPER SKILLS"
+    },
+    "fr": {
+        "title": "COMPETENCES",
+        "player": "Selectionnez votre joueur",
+        "softSkills": "SOFT SKILLS",
+        "hardSkills": "COMPETENCES DE DEVELOPPEUR"
+    }
+}
