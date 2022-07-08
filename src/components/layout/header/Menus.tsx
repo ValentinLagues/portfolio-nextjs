@@ -2,7 +2,7 @@ import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import sectionsLinks from "../../../config/sectionsLinks";
+import sectionsLinks from "src/config/sectionsLinks";
 
 const variations = {
     visible: { opacity: 1 },
