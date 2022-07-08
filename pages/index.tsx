@@ -1,8 +1,8 @@
-import Lang from "@components/UI/Lang";
+import HomeComponent from "@components/home";
 import React from "react";
 
 const Home: React.FC = () => {
-    return <Lang />;
+    return <HomeComponent />;
 };
 
 export default Home;
