@@ -1,16 +1,8 @@
+import Lang from "@components/UI/Lang";
 import React from "react";
 
-import { Container, Header, Main, Footer, Cards } from "@components";
-
 const Home: React.FC = () => {
-    return (
-        <Container>
-            <Header />
-            <Main />
-            <Cards />
-            <Footer />
-        </Container>
-    );
+    return <Lang />;
 };
 
 export default Home;

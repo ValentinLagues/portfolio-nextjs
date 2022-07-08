@@ -1,0 +1,36 @@
+{
+    "en": {
+        "title": "CONTACT",
+        "labelName": "NAME",
+        "labelEmail": "EMAIL",
+        "labelPhone": "PHONE",
+        "labelMessage": "MESSAGE",
+        "placeholderName": "Your name",
+        "placeholderEmail": "Your email address",
+        "placeholderPhone": "Your phone number",
+        "placeholderMessage": "Your message",
+        "errorName": "Your name is required",
+        "errorEmail": "Your email is required",
+        "errorValidEmail": "Enter a valid email address",
+        "errorPhone": "Your phone is required",
+        "errorMessage": "Your message is required",
+        "button": "Send"
+    },
+    "fr": {
+        "title": "CONTACT",
+        "labelName": "NOM",
+        "labelEmail": "EMAIL",
+        "labelPhone": "TELEPHONE",
+        "labelMessage": "MESSAGE",
+        "placeholderName": "Votre nom",
+        "placeholderEmail": "Votre adresse email",
+        "placeholderPhone": "Votre numero de telephone",
+        "placeholderMessage": "Votre message",
+        "errorName": "Votre nom est requis",
+        "errorEmail": "Votre email est requis",
+        "errorValidEmail": "Entrez un email valide",
+        "errorPhone": "Votre telephone est requis",
+        "errorMessage": "Votre message est requis",
+        "button": "Envoyer"
+    }
+}
