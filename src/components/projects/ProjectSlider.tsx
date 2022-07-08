@@ -34,8 +34,8 @@ const ProjectsSlider = (): JSX.Element => {
                             <Image
                                 src={cardItem.image}
                                 alt={cardItem.altImage}
-                                width={400}
-                                height={300}
+                                width={600}
+                                height={400}
                                 priority={true}
                             />
                         </a>
