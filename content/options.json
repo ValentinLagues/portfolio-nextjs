@@ -1,0 +1,14 @@
+{
+    "en": {
+        "pressStart": "Press start button",
+        "language": "LANGUAGE",
+        "music": "MUSIC",
+        "save": "Save"
+    },
+    "fr": {
+        "pressStart": "Appuyez sur start",
+        "language": "LANGUE",
+        "music": "MUSIQUE",
+        "save": "Sauvegarder"
+    }
+}

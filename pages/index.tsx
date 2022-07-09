@@ -1,15 +1,17 @@
+import AboutComponent from "@components/about";
+import HomeComponent from "@components/home";
+import ProjectsComponent from "@components/projects";
+import SkillsComponent from "@components/skills";
 import React from "react";
-
-import { Container, Header, Main, Footer, Cards } from "@components";
 
 const Home: React.FC = () => {
     return (
-        <Container>
-            <Header />
-            <Main />
-            <Cards />
-            <Footer />
-        </Container>
+        <div>
+            <HomeComponent />
+            <AboutComponent />
+            <SkillsComponent />
+            <ProjectsComponent />
+        </div>
     );
 };
 
