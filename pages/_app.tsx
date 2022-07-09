@@ -7,13 +7,13 @@ import Layout from "@components/layout";
 import { AppContextProvider } from "src/context/Context";
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
-    return (
-        <AppContextProvider>
-            <Layout>
-                <Component {...pageProps} />
-            </Layout>
-        </AppContextProvider>
-    );
+  return (
+    <AppContextProvider>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </AppContextProvider>
+  );
 }
 
 export default MyApp;
