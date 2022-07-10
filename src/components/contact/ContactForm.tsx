@@ -4,6 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useTranslation } from "react-i18next";
 import * as yup from "yup";
 import { toast } from "react-toastify";
+import CustomToast from "@components/toast/CustomToast";
 
 type ContactSubmitForm = {
   name: string;
@@ -49,9 +50,9 @@ const ContactForm = (): React.ReactElement => {
     );
     if (sentEmail.status === 200) {
       reset();
-      toast.success(<p>Bravo</p>);
+      toast.success(<CustomToast message={t("contact.successToast")} />);
     } else {
-      toast.error(<p>Raté</p>);
+      toast.error(<CustomToast message={t("contact.errorToast")} />);
     }
   };
 

@@ -14,7 +14,9 @@
         "errorValidEmail": "Enter a valid email address",
         "errorPhone": "Your phone is required",
         "errorMessage": "Your message is required",
-        "button": "Send"
+        "button": "Send",
+        "successToast": "Thank you, your message has been sent",
+        "ErrorToast": "Sorry, you request has encountered an error"
     },
     "fr": {
         "title": "CONTACT",
@@ -31,6 +33,8 @@
         "errorValidEmail": "Entrez un email valide",
         "errorPhone": "Votre telephone est requis",
         "errorMessage": "Votre message est requis",
-        "button": "Envoyer"
+        "button": "Envoyer",
+        "successToast": "Merci, votre message a bien ete envoye",
+        "ErrorToast": "Erreur lors de l'envoi du message"
     }
 }
