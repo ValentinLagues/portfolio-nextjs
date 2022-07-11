@@ -7,7 +7,7 @@ const HomeTitle = (): JSX.Element => {
       <h1 className="flex flex-row justify-center text-4xl font-roadrage mainTitle md:text-7xl lg:text-8xl xl:text-9xl">
         {t("home.name")}
       </h1>
-      <h2 className="flex text-3xl md:py-4 title md:text-6xl lg:text-7xl xl:text-8xl">
+      <h2 className="flex text-3xl md:py-4 title md:text-5xl lg:text-6xl xl:text-7xl">
         {t("home.developer")}
       </h2>
     </div>

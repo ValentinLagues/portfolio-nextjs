@@ -1,6 +1,6 @@
 import Menus from "./Menus";
 
-const HeaderComponent = (): JSX.Element => {
+const Header = (): JSX.Element => {
   return (
     <div className="relative z-50 flex-row items-center w-full lg:h-12 lg:fixed lg:flex">
       <Menus />
@@ -8,4 +8,4 @@ const HeaderComponent = (): JSX.Element => {
   );
 };
 
-export default HeaderComponent;
+export default Header;

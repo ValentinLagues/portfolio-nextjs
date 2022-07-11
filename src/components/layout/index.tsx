@@ -1,7 +1,9 @@
 import { ReactNode } from "react";
 import Head from "next/head";
-import Header from "./header/index";
+
 import Body from "./Body";
+import Header from "./header";
+import Footer from "./Footer";
 
 interface ILayoutProps {
   children: ReactNode;
@@ -9,7 +11,7 @@ interface ILayoutProps {
 
 const Layout = ({ children }: ILayoutProps): JSX.Element => {
   return (
-    <div className="w-full h-full">
+    <div className="w-full min-h-screen bg-fixed bg-black bg-center md:bg-cover lg:bg-contain md:bg-city-pattern sm:h-full">
       <Head>
         <title>Valentin Lagues : Web Developer</title>
         <meta
@@ -23,6 +25,7 @@ const Layout = ({ children }: ILayoutProps): JSX.Element => {
       </Head>
       <Header />
       <Body>{children}</Body>
+      <Footer />
     </div>
   );
 };
