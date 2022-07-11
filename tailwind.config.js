@@ -15,7 +15,7 @@ module.exports = {
       backgroundImage: {
         "city-pattern":
           "url('https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181246/portfolio/city_szre4x.gif')",
-        "city-pattern-static":
+        "city-patternstatic":
           "url('https://res.cloudinary.com/dnw0kiu56/image/upload/v1657412627/portfolio/city-static_abgjsd.jpg')",
         "street-pattern": "url('/img/street.gif')",
       },
