@@ -11,7 +11,7 @@ interface ILayoutProps {
 
 const Layout = ({ children }: ILayoutProps): JSX.Element => {
   return (
-    <div className="w-full min-h-screen bg-fixed bg-center bg-contain bg-city-patternstatic lg:bg-city-pattern sm:h-full">
+    <div className="w-full min-h-screen bg-fixed bg-center bg-contain sm:bg-city-patternstatic lg:bg-city-pattern sm:h-full">
       <Head>
         <title>Valentin Lagues : Web Developer</title>
         <meta
