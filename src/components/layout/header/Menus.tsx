@@ -25,7 +25,7 @@ const Menus = (): JSX.Element => {
   return (
     <Disclosure
       as="nav"
-      className="fixed flex flex-col w-full lg:px-12 lg:items-center"
+      className="fixed flex flex-col w-full lg:px-8 lg:items-center"
     >
       {({ open }) => (
         <>
@@ -37,7 +37,7 @@ const Menus = (): JSX.Element => {
                     {sectionsLinks.map((link) => (
                       <div id="sound" key={link.id}>
                         <p
-                          className={`gap-8 text-xl text-white hover:scale-125 cursor-pointer ${link.style}`}
+                          className={`gap-8 lg:text-base xl:text-lg text-white hover:scale-125 cursor-pointer ${link.style}`}
                           onClick={() => {
                             handleClick(link["section-id"]);
                           }}
