@@ -1,13 +1,11 @@
 {
     "en": {
         "links": "Links",
-        "hypercan": "The music used on this site has been composed by the band Hypercan. Go find them on Youtube : ",
         "resume": "Download my resume",
         "copyright": "All rights reserved, Valentin Lagues, 2022"
     },
     "fr": {
         "links": "Liens",
-        "hypercan": "La musique utilisee sur ce site a ete composee par le groupe Hypercan. Retrouvez-les sur youtube : ",
         "resume": "Telechargez mon CV",
         "copyright": "Tous droits reserves, Valentin Lagues, 2022"
     }

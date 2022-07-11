@@ -14,7 +14,7 @@ export default function ChoosePlayer() {
     },
     {
       id: 2,
-      pic: "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181328/portfolio/hacker1_vbpzzr.gif",
+      pic: "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657500333/portfolio/hacker-static_qvfp0j.jpg",
       alt: "hardskills",
     },
   ];

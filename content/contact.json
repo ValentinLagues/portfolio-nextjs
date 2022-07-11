@@ -14,7 +14,9 @@
         "errorValidEmail": "Enter a valid email address",
         "errorPhone": "Your phone is required",
         "errorMessage": "Your message is required",
-        "button": "Send"
+        "button": "Send",
+        "mailSent": "Thank you, your message has been sent",
+        "sentButton": "Send another message"
     },
     "fr": {
         "title": "CONTACT",
@@ -31,6 +33,8 @@
         "errorValidEmail": "Entrez un email valide",
         "errorPhone": "Votre telephone est requis",
         "errorMessage": "Votre message est requis",
-        "button": "Envoyer"
+        "button": "Envoyer",
+        "mailSent": "Merci, votre message a ete envoye",
+        "sentButton": "Envoyer un autre message"
     }
 }

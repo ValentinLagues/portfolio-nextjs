@@ -1,6 +1,5 @@
 import { useContext } from "react";
-import AppContext from "../../context/Context";
-// import useInteraction from "../../hooks/useInteraction";
+import AppContext from "src/context/Context";
 import { setIndexSlider } from "../../hooks/utils";
 
 interface IProps {
@@ -8,14 +7,12 @@ interface IProps {
 }
 
 const RightArrow = ({ projectsListLength }: IProps) => {
-  // const { option } = useInteraction();
   const { setSelectedSlide, selectedSlide } = useContext(AppContext);
   let indexSlider = 0;
   indexSlider = projectsListLength;
 
   const handleChangeSlideAfter = () => {
     setSelectedSlide(setIndexSlider(indexSlider, "+", selectedSlide));
-    // option();
   };
 
   return (
