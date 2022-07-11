@@ -19,7 +19,7 @@ module.exports = {
       },
       fontFamily: {
         retro: ["Retro", "sans-serif"],
-        roadrage: ["RoadRage"],
+        roadrage: ["RoadRage", "sans-serif"],
         sorw: ["SOR2W", "sans-serif"],
         sorbw: ["SOR2BW", "sans-serif"],
       },
