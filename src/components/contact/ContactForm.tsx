@@ -123,7 +123,7 @@ const ContactForm = (): React.ReactElement => {
       )}
       {mailSent === true && (
         <div className="flex flex-col items-center justify-center">
-          <div className="relative p-4">
+          <div className="relative hidden p-4 md:block">
             <Image
               height={150}
               width={300}

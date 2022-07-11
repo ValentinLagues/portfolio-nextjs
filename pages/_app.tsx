@@ -15,9 +15,9 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
       <DefaultSeo
         title="Valentin Lagues : Web developer"
         description="Javascript full-stack developer"
-        canonical="https://portfolio-valentinlagues.vercel.app/"
+        canonical="https://valentinlagues-portfolio.vercel.app/"
         openGraph={{
-          url: "https://portfolio-valentinlagues.vercel.app/",
+          url: "https://valentinlagues-portfolio.vercel.app/",
           title: "Valentin Lagues : Web developer",
           description:
             "Javascript full-stack developer, front end, back end, React",
