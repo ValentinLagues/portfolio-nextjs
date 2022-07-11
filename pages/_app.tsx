@@ -6,7 +6,6 @@ import "../i18n";
 import Layout from "@components/layout";
 import { AppContextProvider } from "src/context/Context";
 import { DefaultSeo } from "next-seo";
-import { ToastContainer } from "react-toastify";
 import ErrorBoundary from "@components/error/ErrorBoundary";
 import ErrorFallback from "@components/error/ErrorFallback";
 
@@ -38,7 +37,6 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
           <ErrorBoundary ErrorFallback={ErrorFallback}>
             <Component {...pageProps} />
           </ErrorBoundary>
-          <ToastContainer autoClose={3000} />
         </Layout>
       </AppContextProvider>
     </>

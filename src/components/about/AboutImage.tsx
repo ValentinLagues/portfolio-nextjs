@@ -5,7 +5,7 @@ const AboutImage = (): JSX.Element => {
     <div className="relative pb-4">
       <Image
         height={250}
-        width={450}
+        width={500}
         src="https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181453/portfolio/SW_lfeepg.gif"
         alt="about-image"
         priority={true}

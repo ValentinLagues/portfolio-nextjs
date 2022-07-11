@@ -15,8 +15,8 @@
         "errorPhone": "Your phone is required",
         "errorMessage": "Your message is required",
         "button": "Send",
-        "successToast": "Thank you, your message has been sent",
-        "ErrorToast": "Sorry, you request has encountered an error"
+        "mailSent": "Thank you, your message has been sent",
+        "sentButton": "Send another message"
     },
     "fr": {
         "title": "CONTACT",
@@ -34,7 +34,7 @@
         "errorPhone": "Votre telephone est requis",
         "errorMessage": "Votre message est requis",
         "button": "Envoyer",
-        "successToast": "Merci, votre message a bien ete envoye",
-        "ErrorToast": "Erreur lors de l'envoi du message"
+        "mailSent": "Merci, votre message a ete envoye",
+        "sentButton": "Envoyer un autre message"
     }
 }

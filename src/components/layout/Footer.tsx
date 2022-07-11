@@ -22,7 +22,7 @@ const ContactFooter = (): JSX.Element => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col items-center w-full gap-4 mt-12 md:flex-row">
+    <div className="relative z-50 flex flex-col items-center w-full gap-4 pb-10 lg:flex-row">
       <div className="flex flex-row justify-center w-full gap-8 md:w-1/3">
         {socialLinks.map((link) => (
           <div key={link.id} className="relative w-9 h-9 md:w-10 md:h-10">

@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import i18next from "i18next";
+import i18next, { t } from "i18next";
 
 const enum Language {
   EN = "en",
@@ -32,19 +32,24 @@ const Lang = () => {
   };
 
   return (
-    <div className="flex flex-row justify-center w-full gap-10 text-xs cursor-pointer md:text-base">
-      {langArray.map((language) => (
-        <div
-          key={language.id}
-          role="presentation"
-          className={
-            i18next.language === language.tag ? "text-white" : "text-gray-500"
-          }
-          onClick={(e) => handleSetLanguage(e, language.tag)}
-        >
-          <p className="font-sorw">{language.word}</p>
-        </div>
-      ))}
+    <div className="flex flex-col items-center justify-center mt-6">
+      <p className="text-base text-white md:text-lg font-sorw">
+        {t("options.language")}
+      </p>
+      <div className="flex flex-row justify-center w-full gap-10 pt-4 text-xs cursor-pointer md:text-base">
+        {langArray.map((language) => (
+          <div
+            key={language.id}
+            role="presentation"
+            className={
+              i18next.language === language.tag ? "text-white" : "text-gray-500"
+            }
+            onClick={(e) => handleSetLanguage(e, language.tag)}
+          >
+            <p className="font-sorw">{language.word}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
