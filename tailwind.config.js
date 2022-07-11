@@ -15,13 +15,11 @@ module.exports = {
       backgroundImage: {
         "city-pattern":
           "url('https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181246/portfolio/city_szre4x.gif')",
-        "city-patternstatic":
-          "url('https://res.cloudinary.com/dnw0kiu56/image/upload/v1657412627/portfolio/city-static_abgjsd.jpg')",
         "street-pattern": "url('/img/street.gif')",
       },
       fontFamily: {
-        retro: ["Retro"],
-        roadrage: ["RoadRage", "sans-serif"],
+        retro: ["Retro", "sans-serif"],
+        roadrage: ["RoadRage"],
         sorw: ["SOR2W", "sans-serif"],
         sorbw: ["SOR2BW", "sans-serif"],
       },
