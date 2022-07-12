@@ -13,7 +13,7 @@ const projectsList = [
     title: "DJEGO",
     description: "Djego",
     image:
-      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181273/portfolio/djego_chaf8g.jpg",
+      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657614948/portfolio/djego_shdfbs.jpg",
     altImage: "Djego",
     link: "https://djego-website-a3pivpz9h-digitalcopilote.vercel.app/",
   },
@@ -22,7 +22,7 @@ const projectsList = [
     title: "DRONE METASHOP",
     description: "Drone",
     image:
-      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181298/portfolio/drone_qovizx.jpg",
+      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657614669/portfolio/drone_cqct9c.jpg",
     altImage: "Drone",
     link: "https://ninja-metashop-git-dev-digitalcopilote.vercel.app/",
   },
@@ -40,7 +40,7 @@ const projectsList = [
     title: "OLENTZERO",
     description: "Olentzero",
     image:
-      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181430/portfolio/olentzero_rvo8lq.jpg",
+      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657614942/portfolio/olentzero_odjvib.jpg",
     altImage: "Olentzero",
     link: "https://valentinlagues.github.io/Olentzero-Music/",
   },
