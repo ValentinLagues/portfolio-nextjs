@@ -25,7 +25,7 @@ const Home: React.FC = () => {
           variants={variationsIntro}
           initial="show"
           animate="hidden"
-          className="absolute z-50 items-center justify-center w-full h-full transition duration-1000 ease-out delay-1000 bg-black"
+          className="absolute z-50 items-center justify-center hidden w-full h-full transition duration-1000 ease-out delay-1000 bg-black md:block"
         >
           <div className="flex items-center justify-center">
             <video
