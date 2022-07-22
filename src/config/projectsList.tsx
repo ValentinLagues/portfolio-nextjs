@@ -1,12 +1,12 @@
 const projectsList = [
   {
     id: 1,
-    title: "BLOCKTECH",
-    description: "Blocktech",
+    title: "METAMERCH",
+    description: "Metamerch",
     image:
       "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181306/portfolio/blocktech_lxssze.jpg",
-    altImage: "Blocktech",
-    link: "https://ninja-lab-crypto-hightech.vercel.app/",
+    altImage: "Metagift",
+    link: "https://www.metamerchcrypto.xyz/",
   },
   {
     id: 2,
