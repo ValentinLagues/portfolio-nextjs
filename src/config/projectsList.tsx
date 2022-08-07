@@ -28,12 +28,12 @@ const projectsList = [
   },
   {
     id: 4,
-    title: "WILD HEROES",
-    description: "WildHeroes",
+    title: "IHOOVER",
+    description: "IHoover",
     image:
-      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181463/portfolio/wildheroes_xreod2.jpg",
-    altImage: "Wild Heroes",
-    link: "https://valentinlagues.github.io/Wild-Heroes/#/",
+      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1659883374/portfolio/hoover_cbxser.png",
+    altImage: "Hoover",
+    link: "https://ihoover.vercel.app/#/",
   },
   {
     id: 5,
@@ -43,6 +43,15 @@ const projectsList = [
       "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657614942/portfolio/olentzero_odjvib.jpg",
     altImage: "Olentzero",
     link: "https://valentinlagues.github.io/Olentzero-Music/",
+  },
+  {
+    id: 6,
+    title: "WILD HEROES",
+    description: "WildHeroes",
+    image:
+      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181463/portfolio/wildheroes_xreod2.jpg",
+    altImage: "Wild Heroes",
+    link: "https://valentinlagues.github.io/Wild-Heroes/#/",
   },
 ];
 
