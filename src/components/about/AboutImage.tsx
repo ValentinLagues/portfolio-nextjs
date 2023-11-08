@@ -2,27 +2,14 @@ import Image from "next/image";
 
 const AboutImage = (): JSX.Element => {
   return (
-    <div>
-      <div className="relative block pb-4 md:hidden">
-        <Image
-          className="block md:hidden"
-          height={250}
-          width={500}
-          src="https://res.cloudinary.com/dnw0kiu56/image/upload/v1657500314/portfolio/SW-static_zgzb4k.jpg"
-          alt="about-image"
-          priority={true}
-        />
-      </div>
-      <div className="hidden md:block">
-        <video
-          src="https://res.cloudinary.com/dnw0kiu56/video/upload/v1657531640/portfolio/SW_bu7ihx.webm"
-          autoPlay
-          muted
-          loop
-          width={500}
-          height={250}
-        />
-      </div>
+    <div className="relative block pb-4">
+      <Image
+        height={250}
+        width={250}
+        src="https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/profile-pink.png?alt=media&token=a29feb32-15d3-4af7-a81e-7d82f0548bd0"
+        alt="about-image"
+        priority={true}
+      />
     </div>
   );
 };

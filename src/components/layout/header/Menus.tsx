@@ -33,7 +33,7 @@ const Menus = (): JSX.Element => {
             <div className="w-full">
               <div className="flex items-center justify-center h-1 sm:h-full">
                 <div className="hidden w-full lg:block ">
-                  <nav className="justify-between w-full md:flex md:flex-row">
+                  <nav className="justify-between w-full md:flex md:flex-row ">
                     {sectionsLinks.map((link) => (
                       <div id="sound" key={link.id}>
                         <p

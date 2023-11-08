@@ -41,6 +41,8 @@
     "incremental": true
   },
   "include": [
+    "tailwind.config.js",
+    "next.config.js",
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
