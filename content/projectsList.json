@@ -1,15 +1,17 @@
 {
     "en": {
-        "descriptionBlocktech": "E-commerce website developed within the company Digital Copilote created to sell hightech accessories with cryptocurrencies via Metamask wallet.",
+        "descriptionMetamerch": "E-commerce website developed within the company Digital Copilote created to sell clothes with cryptocurrencies via Metamask wallet.",
         "descriptionDjego":"Website developed within the company Digital Copilote for the band Djego to promote their music and their universe.",
         "descriptionDrone" : "E-commerce website developed within the company Digital Copilote created to sell a drone with cryptocurrencies via Metamask wallet.",
+        "descriptionIHoover": "Application developed in 3 days destined to control a hoover on a predefined surface",
         "descriptionWildHeroes":"Website developed in 5 weeks during my Wild Code School program to create a React App from A to Z using Agile and API calls.",
         "descriptionOlentzero":"Website developed in only 31 hours during my Wild Code School hackathon to create a musical advent calendar."
     },
     "fr": {
-        "descriptionBlocktech": "Site e-commerce developpe au sein de l'entreprise Digital Copilote cree pour vendre des accessoires hightech achetables en cryptomonnaies via un portefeuille Metamask.",
+        "descriptionMetamerch": "Site e-commerce developpe au sein de l'entreprise Digital Copilote cree pour vendre des vetements achetables en cryptomonnaies via un portefeuille Metamask.",
         "descriptionDjego":"Site developpe au sein de l'entreprise Digital Copilote pour le groupe Djego afin de promouvoir leur musique et leur univers.",
         "descriptionDrone": "Site e-commerce developpe au sein de l'entreprise Digital Copilote cree pour vendre un drone achetable en cryptomonnaies via un portefeuille Metamask.",
+        "descriptionIHoover": "Petite application developpee en 3 jours qui permet de controler un petit aspirateur sur une surface predefinie",
         "descriptionWildHeroes":"Site developpe en 5 semaines durant ma formation a la Wild Code School dans le but de creer un site de A a Z avec React en utilisant la methode Agile et les appels API.",
         "descriptionOlentzero":"Site developpe en seulement 31 heures pendant un hackathon a la Wild Code School dans le but de creer un calendrier de l'avent musical."
 
