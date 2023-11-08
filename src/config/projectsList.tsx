@@ -1,19 +1,19 @@
 const projectsList = [
   {
     id: 1,
-    title: "BLOCKTECH",
-    description: "Blocktech",
+    title: "METAMERCH",
+    description: "Metamerch",
     image:
-      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181306/portfolio/blocktech_lxssze.jpg",
-    altImage: "Blocktech",
-    link: "https://ninja-lab-crypto-hightech.vercel.app/",
+      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1658580069/portfolio/metamerch_b8ybvz.jpg",
+    altImage: "Metagift",
+    link: "https://www.metamerchcrypto.xyz/",
   },
   {
     id: 2,
     title: "DJEGO",
     description: "Djego",
     image:
-      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181273/portfolio/djego_chaf8g.jpg",
+      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657614948/portfolio/djego_shdfbs.jpg",
     altImage: "Djego",
     link: "https://djego-website-a3pivpz9h-digitalcopilote.vercel.app/",
   },
@@ -22,27 +22,36 @@ const projectsList = [
     title: "DRONE METASHOP",
     description: "Drone",
     image:
-      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181298/portfolio/drone_qovizx.jpg",
+      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657614669/portfolio/drone_cqct9c.jpg",
     altImage: "Drone",
     link: "https://ninja-metashop-git-dev-digitalcopilote.vercel.app/",
   },
   {
     id: 4,
-    title: "WILD HEROES",
-    description: "WildHeroes",
+    title: "IHOOVER",
+    description: "IHoover",
     image:
-      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181463/portfolio/wildheroes_xreod2.jpg",
-    altImage: "Wild Heroes",
-    link: "https://valentinlagues.github.io/Wild-Heroes/#/",
+      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1659883374/portfolio/hoover_cbxser.png",
+    altImage: "Hoover",
+    link: "https://ihoover.vercel.app/#/",
   },
   {
     id: 5,
     title: "OLENTZERO",
     description: "Olentzero",
     image:
-      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181430/portfolio/olentzero_rvo8lq.jpg",
+      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657614942/portfolio/olentzero_odjvib.jpg",
     altImage: "Olentzero",
     link: "https://valentinlagues.github.io/Olentzero-Music/",
+  },
+  {
+    id: 6,
+    title: "WILD HEROES",
+    description: "WildHeroes",
+    image:
+      "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181463/portfolio/wildheroes_xreod2.jpg",
+    altImage: "Wild Heroes",
+    link: "https://valentinlagues.github.io/Wild-Heroes/#/",
   },
 ];
 
