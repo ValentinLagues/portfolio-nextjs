@@ -20,7 +20,7 @@ const Layout = ({ children }: ILayoutProps): JSX.Element => {
         />
         <link
           rel="icon"
-          href="https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181416/portfolio/logo_fgfrbk.png"
+          href="https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/logo.png?alt=media&token=06a4c36a-17c2-4a79-9415-b530a00c4852"
         />
       </Head>
       <Header />
