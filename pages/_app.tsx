@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
             "Javascript full-stack developer, front end, back end, React",
           images: [
             {
-              url: "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657185046/portfolio/seologo_mcazhi.jpg",
+              url: "https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/seo-logo.jpg?alt=media&token=6fbf4ab1-6667-4390-a3d4-29f1dabd9c97",
               width: 200,
               height: 200,
               alt: "logo",

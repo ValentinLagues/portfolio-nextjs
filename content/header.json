@@ -2,6 +2,7 @@
     "en": {
         "labelHome": "Home",
         "labelAbout": "About me",
+        "labelExperience": "Experience",
         "labelSkills": "Skills",
         "labelProjects": "Projects",
         "labelContact": "Contact"
@@ -9,6 +10,7 @@
     "fr": {
         "labelHome": "Accueil",
         "labelAbout": "A propos",
+        "labelExperience": "Experience",
         "labelSkills": "Competences",
         "labelProjects": "Projets",
         "labelContact": "Contact"

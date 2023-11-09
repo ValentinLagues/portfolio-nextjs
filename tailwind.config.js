@@ -1,5 +1,3 @@
-const { url } = require("inspector");
-
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -14,8 +12,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "city-pattern":
-          "url('https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181246/portfolio/city_szre4x.gif')",
-        "street-pattern": "url('/img/street.gif')",
+          "url('https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/city.gif?alt=media&token=eeb84820-d192-4d09-959b-fa076370201d')",
       },
       fontFamily: {
         retro: ["Retro", "sans-serif"],

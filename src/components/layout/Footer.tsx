@@ -5,14 +5,14 @@ const socialLinks = [
   {
     id: 1,
     label: "Github",
-    img: "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181316/portfolio/github_clk5a4.png",
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/github.png?alt=media&token=9be2e0b9-808a-49f1-81c8-147d1ac65a7e",
     url: "https://github.com/ValentinLagues",
     alt: "github-logo",
   },
   {
     id: 2,
     label: "Linkedin",
-    img: "https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181405/portfolio/linkedin_d8nfes.png",
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/linkedin.png?alt=media&token=e0768f46-fa08-4588-867a-b1252673192c",
     url: "https://linkedin.com/in/valentin-lagues",
     alt: "linkedin-logo",
   },
