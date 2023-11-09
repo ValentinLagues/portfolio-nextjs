@@ -4,7 +4,7 @@ import ExperienceTitle from "./ExperienceTitle";
 
 const ExperienceComponent = (): JSX.Element => {
   return (
-    <SectionContainer sectionId={"experience"}>
+    <SectionContainer sectionId="experience">
       <div className="w-full h-full min-h-screen pt-20 md:pt-10">
         <ExperienceTitle />
         <ExperienceText />
