@@ -27,13 +27,13 @@ const Menus = (): JSX.Element => {
       as="nav"
       className="fixed flex flex-col w-full lg:px-8 lg:items-center"
     >
-      {({ open }) => (
+      {({ open }: { open: boolean }) => (
         <>
           <div className="flex items-center w-full h-full">
             <div className="w-full">
               <div className="flex items-center justify-center h-1 sm:h-full">
                 <div className="hidden w-full lg:block ">
-                  <nav className="justify-between w-full md:flex md:flex-row ">
+                  <nav className="justify-between w-full md:flex md:flex-row">
                     {sectionsLinks.map((link) => (
                       <div id="sound" key={link.id}>
                         <p
