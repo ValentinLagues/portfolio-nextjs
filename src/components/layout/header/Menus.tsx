@@ -27,7 +27,7 @@ const Menus = (): JSX.Element => {
       as="nav"
       className="fixed flex flex-col w-full lg:px-8 lg:items-center"
     >
-      {({ open }) => (
+      {({ open }: { open: boolean }) => (
         <>
           <div className="flex items-center w-full h-full">
             <div className="w-full">
