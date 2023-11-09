@@ -18,7 +18,7 @@ const ExperienceText = (): JSX.Element => {
         {graduations.map((graduation) => (
           <p
             key={graduation.id}
-            className="flex pb-4 text-xs leading-5 md:px-10 text-clip md:text-justify md:leading-6 font-sorw md:text-sm"
+            className="flex pb-4 text-xs leading-5 md:px-10 text-clip md:text-justify font-sorw"
           >
             {t(`experience.date${graduation.date}`)} -{" "}
             {t(`experience.label${graduation.label}`)}
@@ -33,7 +33,7 @@ const ExperienceText = (): JSX.Element => {
         {trainings.map((training) => (
           <p
             key={training.id}
-            className="flex pb-4 text-xs leading-5 md:px-10 text-clip md:text-justify md:leading-6 font-sorw md:text-sm"
+            className="flex pb-4 text-xs leading-5 md:px-10 text-clip md:text-justify font-sorw"
           >
             {t(`experience.date${training.date}`)} :{" "}
             {t(`experience.label${training.label}`)} <br />
@@ -49,13 +49,12 @@ const ExperienceText = (): JSX.Element => {
         {companies.map((company) => (
           <p
             key={company.id}
-            className="flex pb-4 text-xs leading-5 md:px-10 text-clip md:text-justify md:leading-6 font-sorw md:text-sm"
+            className="flex pb-4 text-xs leading-5 md:px-10 text-clip md:text-justify font-sorw"
           >
             {t(`experience.date${company.date}`)} :{" "}
             {t(`experience.label${company.label}`)} <br />
             {t(`experience.mission${company.mission}`)} <br />
-            Technologies utilisees : {t(`experience.tech${company.tech}`)}{" "}
-            <br />
+            {t(`experience.tech${company.tech}`)}
           </p>
         ))}
       </div>

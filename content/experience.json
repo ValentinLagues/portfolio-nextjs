@@ -16,12 +16,12 @@
         "missionInitial": "6 months training, using Javascript, Node Js, React, SQL, Figma, Agile.",
         "dateYanport": "09/2022 - 09/2023",
         "labelYanport": "Yanport",
-        "missionYanport": "Entreprise specialisee dans la creation d'outils pour les acteurs de l'immobilier. Ajout de nouvelles fonctionnalites a l'application, correction du site web, correction de bugs, integration de tests unitaires.",
-        "techYanport": "Angular, Java, Cypress, SCSS",
+        "missionYanport": "Company specialized in creating tools for real estate professionals. Adding new features to the application, fixing the website, debugging, and integrating unit tests.",
+        "techYanport": "Technologies used : Angular, Java, Cypress, SCSS",
         "dateDigitalCopilote": "03/2022 - 08/2022",
         "labelDigitalCopilote": "Digital Copilote",
-        "missionDigitalCopilote": "Agence Web specialisee dans la creation de sites e-commerce utilisables avec des wallets Metamask. Creation de sites web, correction de bugs, creation de maquettes avec Figma.",
-        "techDigitalCopilote": "React, NextJS, Wordpress"
+        "missionDigitalCopilote": "Web agency specialized in the creation of e-commerce websites compatible with Metamask wallets. Website creation, bug fixing, and designing mock-ups using Figma.",
+        "techDigitalCopilote": "Technologies used : React, NextJS, Wordpress, Tailwind"
     },
     "fr": {
         "title": "EXPERIENCE PROFESSIONNELLE",
@@ -41,10 +41,10 @@
         "dateYanport": "09/2022 - 09/2023",
         "labelYanport": "Yanport",
         "missionYanport": "Entreprise specialisee dans la creation d'outils pour les acteurs de l'immobilier. Ajout de nouvelles fonctionnalites a l'application, correction du site web, correction de bugs, integration de tests unitaires.",
-        "techYanport": "Angular, Java, Cypress, SCSS",
+        "techYanport": "Technologies utilisees : Angular, Java, Cypress, SCSS",
         "dateDigitalCopilote": "03/2022 - 08/2022",
         "labelDigitalCopilote": "Digital Copilote",
         "missionDigitalCopilote": "Agence Web specialisee dans la creation de sites e-commerce utilisables avec des wallets Metamask. Creation de sites web, correction de bugs, creation de maquettes avec Figma.",
-        "techDigitalCopilote": "React, NextJS, Wordpress"
+        "techDigitalCopilote": "Technologies utilisees : React, NextJS, Wordpress, Tailwind"
     }
 }

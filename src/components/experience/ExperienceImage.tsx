@@ -5,8 +5,8 @@ const ExperienceImage = (): JSX.Element => {
     <div>
       <div className="relative block pb-4 md:hidden">
         <Image
-          height={250}
-          width={500}
+          height={200}
+          width={400}
           src="https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/hacker-static.jpg?alt=media&token=367f7514-1f5f-4547-acd5-18493e000fbf"
           alt="about-image"
           priority={true}
@@ -18,8 +18,8 @@ const ExperienceImage = (): JSX.Element => {
           autoPlay
           muted
           loop
-          width={500}
-          height={250}
+          width={400}
+          height={200}
         />
       </div>
     </div>
