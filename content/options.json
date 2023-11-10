@@ -1,12 +1,12 @@
 {
     "en": {
         "pressStart": "Press start button",
-        "language": "LANGUAGE",
+        "language": "SELECT YOUR LANGUAGE",
         "save": "Save"
     },
     "fr": {
         "pressStart": "Appuyez sur start",
-        "language": "LANGUE",
+        "language": "SELECTIONNEZ VOTRE LANGUE",
         "save": "Sauvegarder"
     }
 }
