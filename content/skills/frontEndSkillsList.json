@@ -1,0 +1,22 @@
+{
+    "en": {
+        "labelHTMLCSS": "HTML/CSS",  
+        "labelJavascript": "Javascript",              
+        "labelReact": "React",
+        "labelTypescript": "Typescript",
+        "labelNextJS": "Next.JS",
+        "labelAngular": "Angular",
+        "labelSCSS": "SCSS",
+        "labelTailwindCSS": "TailwindCSS"
+        },
+    "fr": {
+        "labelHTMLCSS": "HTML/CSS",  
+        "labelJavascript": "Javascript",              
+        "labelReact": "React",
+        "labelTypescript": "Typescript",
+        "labelNextJS": "Next.JS",
+        "labelAngular": "Angular",
+        "labelSCSS": "SCSS",
+        "labelTailwindCSS": "TailwindCSS"
+        }
+}

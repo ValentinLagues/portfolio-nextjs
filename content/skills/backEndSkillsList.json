@@ -1,0 +1,22 @@
+{
+    "en": {
+        "labelNode": "Node.JS",
+        "labelAPI": "API Rest",
+        "labelExpress": "Express.JS",
+        "labelSQL": "SQL",
+        "labelPostgreSQL": "PostgreSQL",
+        "labelGraphQL": "GraphQL",
+        "labelApollo": "Apollo Server",
+        "labelTypeORM": "TypeORM"
+        },
+    "fr": {
+        "labelNode": "Node.JS",
+        "labelAPI": "API Rest",
+        "labelExpress": "Express.JS",
+        "labelSQL": "SQL",
+        "labelPostgreSQL": "PostgreSQL",
+        "labelGraphQL": "GraphQL",
+        "labelApollo": "Apollo Server",
+        "labelTypeORM": "TypeORM"
+        }
+}
