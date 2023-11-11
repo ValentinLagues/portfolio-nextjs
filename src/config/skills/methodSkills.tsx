@@ -21,7 +21,11 @@ const methodSkills = [
   },
   {
     id: 6,
-    label: "CICD",
+    label: "CI",
+  },
+  {
+    id: 7,
+    label: "CD",
   },
 ];
 

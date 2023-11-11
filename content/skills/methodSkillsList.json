@@ -5,7 +5,8 @@
         "labelScrum": "Scrum",
         "labelFigma": "Figma",
         "labelDocker": "Docker",
-        "labelCICD": "CI/CD"
+        "labelCI": "Continuous integration",
+        "labelCD": "Continuous deployment"
         },
     "fr": {
         "labelGit": "Github/Gitlab",
@@ -13,6 +14,7 @@
         "labelScrum": "Methode Scrum",
         "labelFigma": "Figma",
         "labelDocker": "Docker",
-        "labelCICD": "IC/DC"
+        "labelCI": "Integration continue",
+        "labelCD": "Deploiement continu"
         }
 }
