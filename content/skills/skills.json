@@ -1,0 +1,16 @@
+{
+    "en": {
+        "title": "SKILLS",
+        "frontEndSkills": "FRONT-END / CSS",
+        "backEndSkills": "BACK-END / API / DB",
+        "methodSkills": "TOOLS / METHODS",
+        "softSkills": "SOFT SKILLS"
+    },
+    "fr": {
+        "title": "COMPETENCES",
+        "frontEndSkills": "FRONT-END / CSS",
+        "backEndSkills": "BACK-END / API / BDD",
+        "methodSkills": "OUTILS / METHODES",
+        "softSkills": "SOFT SKILLS"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "en": {
+        "labelCuriosity": "Curiosity",
+        "labelTeamSpirit": "Team spirit",
+        "labelAutonomy": "Autonomy",
+        "labelCommunication": "Communication",
+        "labelOrganization": "Organization",
+        "labelWriting": "Writing abilities"
+        },
+    "fr": {
+        "labelCuriosity": "Curiosite",
+        "labelTeamSpirit": "Esprit d'equipe",
+        "labelAutonomy": "Autonomie",
+        "labelCommunication": "Communication",
+        "labelOrganization": "Organisation",
+        "labelWriting": "Capacites d'ecriture"
+        }
+
+}

@@ -1,0 +1,18 @@
+{
+    "en": {
+        "labelGit": "Github/Gitlab",
+        "labelAgile": "Agile",
+        "labelScrum": "Scrum",
+        "labelFigma": "Figma",
+        "labelDocker": "Docker",
+        "labelCICD": "Continuous Integration/Deployment"
+        },
+    "fr": {
+        "labelGit": "Github/Gitlab",
+        "labelAgile": "Methode Agile",
+        "labelScrum": "Methode Scrum",
+        "labelFigma": "Figma",
+        "labelDocker": "Docker",
+        "labelCICD": "Integration/Deploiement continus"
+        }
+}

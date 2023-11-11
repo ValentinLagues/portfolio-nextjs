@@ -4,7 +4,7 @@ import AboutImage from "./AboutImage";
 const AboutText = (): JSX.Element => {
   const { t } = useTranslation();
   return (
-    <div className="flex flex-col items-center justify-center p-4 my-4 text-white bg-black border-white xl:p-10 xl:flex-row border-y-4 border-x-2">
+    <div className="flex flex-col items-center justify-center p-4 my-4 text-white bg-black border-white xl:px-12 xl:py-4 xl:flex-row border-y-4 border-x-2">
       <div className="block lg:hidden">
         <AboutImage />
       </div>

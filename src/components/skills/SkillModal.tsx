@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import hardSkills from "../../config/hardSkills";
-import softSkills from "../../config/softSkills";
+import hardSkills from "../../config/skills/hardSkills";
+import softSkills from "../../config/skills/softSkills";
 
 interface IProps {
   modalIsOpen: number;

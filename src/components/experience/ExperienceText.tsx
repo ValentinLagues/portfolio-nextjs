@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import ExperienceImage from "./ExperienceImage";
-import graduations from "src/config/graduations";
-import trainings from "src/config/trainings";
-import companies from "src/config/companies";
+import graduations from "src/config/experiences/graduations";
+import trainings from "src/config/experiences/trainings";
+import companies from "src/config/experiences/companies";
 
 const ExperienceText = (): JSX.Element => {
   const { t } = useTranslation();

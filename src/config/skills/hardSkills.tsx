@@ -17,54 +17,58 @@ const hardSkills = [
   },
   {
     id: 5,
-    label: "API",
+    label: "Angular",
   },
   {
     id: 6,
-    label: "NodeJS",
+    label: "API",
   },
   {
     id: 7,
-    label: "ExpressJS",
+    label: "NodeJS",
   },
   {
     id: 8,
-    label: "MySQL",
+    label: "ExpressJS",
   },
   {
     id: 9,
-    label: "GraphQL",
+    label: "MySQL",
   },
   {
     id: 10,
-    label: "Prisma",
+    label: "PostGreSQL",
   },
   {
     id: 11,
-    label: "Css",
+    label: "GraphQL",
   },
   {
     id: 12,
-    label: "Scss",
+    label: "TypeORM",
   },
   {
     id: 13,
-    label: "Tailwind",
+    label: "Css",
   },
   {
     id: 14,
-    label: "ChakraUI",
+    label: "Scss",
   },
   {
     id: 15,
-    label: "Git",
+    label: "Tailwind",
   },
   {
     id: 16,
-    label: "Agile",
+    label: "Git",
   },
   {
     id: 17,
+    label: "Agile",
+  },
+  {
+    id: 18,
     label: "Figma",
   },
 ];
