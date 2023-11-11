@@ -1,9 +1,11 @@
 import headerTrad from "../../content/header.json";
 import footerTrad from "../../content/footer.json";
 import homeTrad from "../../content/home.json";
-import optionsTrad from "../../content/options.json";
 import aboutTrad from "../../content/about.json";
-import experienceTrad from "../../content/experiences/experience.json";
+import experiencesTrad from "../../content/experiences/experiences.json";
+import graduationsListTrad from "../../content/experiences/graduationsList.json";
+import trainingsListTrad from "../../content/experiences/trainingsList.json";
+import companiesListTrad from "../../content/experiences/companiesList.json";
 import skillsTrad from "../../content/skills/skills.json";
 import frontEndSkillsListTrad from "../../content/skills/frontEndSkillsList.json";
 import backEndSkillsListTrad from "../../content/skills/backEndSkillsList.json";
@@ -16,9 +18,11 @@ import contactTrad from "../../content/contact.json";
 const header = headerTrad.fr;
 const footer = footerTrad.fr;
 const home = homeTrad.fr;
-const options = optionsTrad.fr;
 const about = aboutTrad.fr;
-const experience = experienceTrad.fr;
+const experiences = experiencesTrad.fr;
+const graduationsList = graduationsListTrad.fr;
+const trainingsList = trainingsListTrad.fr;
+const companiesList = companiesListTrad.fr;
 const skills = skillsTrad.fr;
 const frontEndSkillsList = frontEndSkillsListTrad.fr;
 const backEndSkillsList = backEndSkillsListTrad.fr;
@@ -32,9 +36,11 @@ const ressourcesFr = {
   header,
   footer,
   home,
-  options,
   about,
-  experience,
+  experiences,
+  graduationsList,
+  trainingsList,
+  companiesList,
   skills,
   frontEndSkillsList,
   backEndSkillsList,

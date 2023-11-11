@@ -1,10 +1,12 @@
 {
     "en": {
         "name": "VALENTIN LAGUES",
-        "developer": "* WEB DEVELOPER *"
+        "developer": "* WEB DEVELOPER *",
+        "language": "SELECT YOUR LANGUAGE"
     },
     "fr": {
         "name": "VALENTIN LAGUES",
-        "developer": "* DEVELOPPEUR WEB *"
+        "developer": "* DEVELOPPEUR WEB *",
+        "language": "SELECTIONNEZ VOTRE LANGUE"
     }
 }
