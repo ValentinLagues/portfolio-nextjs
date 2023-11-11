@@ -3,7 +3,7 @@ import footerTrad from "../../content/footer.json";
 import homeTrad from "../../content/home.json";
 import optionsTrad from "../../content/options.json";
 import aboutTrad from "../../content/about.json";
-import experienceTrad from "../../content/experience.json";
+import experienceTrad from "../../content/experiences/experience.json";
 import skillsTrad from "../../content/skills/skills.json";
 import frontEndSkillsListTrad from "../../content/skills/frontEndSkillsList.json";
 import backEndSkillsListTrad from "../../content/skills/backEndSkillsList.json";
