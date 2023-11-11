@@ -1,5 +1,4 @@
 import SectionContainer from "@components/sectionContainer";
-import ChoosePlayer from "./ChoosePlayer";
 import SkillsText from "./SkillsText";
 import SkillsTitle from "./SkillsTitle";
 
