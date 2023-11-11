@@ -14,7 +14,7 @@ const SkillsImage = (): JSX.Element => {
       </div>
       <div className="hidden lg:flex lg:justify-center lg:pb-4">
         <video
-          src="https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/star-wars-crop.webm?alt=media&token=c7f1b7ea-b696-465e-b650-27800dc4fb87"
+          src="https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/star-wars.webm?alt=media&token=28024114-910e-4471-8830-b87eea9f6cdc"
           autoPlay
           muted
           loop

@@ -5,7 +5,7 @@
         "labelAutonomy": "Autonomy",
         "labelCommunication": "Communication",
         "labelOrganization": "Organization",
-        "labelWriting": "Writing abilities"
+        "labelWriting": "Writing"
         },
     "fr": {
         "labelCuriosity": "Curiosite",
@@ -13,7 +13,7 @@
         "labelAutonomy": "Autonomie",
         "labelCommunication": "Communication",
         "labelOrganization": "Organisation",
-        "labelWriting": "Capacites d'ecriture"
+        "labelWriting": "Ecriture"
         }
 
 }
