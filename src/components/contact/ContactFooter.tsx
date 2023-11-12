@@ -39,7 +39,7 @@ const ContactFooter = (): JSX.Element => {
         ))}
       </div>
       <p className="flex flex-row justify-center w-full text-xs text-white md:w-1/3 font-sorw">
-        06 87 17 48 25
+        Tel : 06 87 17 48 25
       </p>
       {/* <a
         href="/docs/Valentin_Lagues_Resume.pdf"
