@@ -38,7 +38,7 @@ const ProjectsSlider = (): JSX.Element => {
             </div>
             <RightArrow projectsListLength={projectsListLength} />
           </div>
-          <div className="flex justify-center h-12 my-2 gap-x-4">
+          <div className="flex flex-col items-center justify-center my-2 gap-y-4 lg:gap-y-0 lg:h-12 lg:flex-row lg:gap-x-4">
             {/* links */}
             {cardItem.link !== "" && (
               <a
@@ -110,7 +110,7 @@ const ProjectsSlider = (): JSX.Element => {
           </div>
         </div>
       )}
-      <div className="w-2/3 mt-4">
+      <div className="mt-4 lg:w-2/3">
         <p className="flex text-xs leading-5 md:text-justify font-sorw">
           {t(`projectsList.description${cardItem.description}`)}
         </p>

@@ -10,8 +10,8 @@ const SkillsText = (): JSX.Element => {
   return (
     <div className="flex flex-col p-4 my-4 text-white bg-black border-white xl:px-12 xl:py-4 border-y-4 border-x-2">
       <SkillsImage />
-      <div className="lg:grid lg:grid-cols-4">
-        <div className="flex flex-col pb-2 lg:pb-0 lg:items-center">
+      <div className="xl:grid xl:grid-cols-4">
+        <div className="flex flex-col items-center pb-2 lg:pb-0">
           <h2 className="text-2xl md:text-3xl md:pb-2 font-sorbw title">
             {t("skills.frontEndSkills")}
           </h2>
@@ -27,7 +27,7 @@ const SkillsText = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="flex flex-col pb-2 lg:pb-0 lg:items-center">
+        <div className="flex flex-col items-center pb-2 lg:pb-0">
           <h2 className="text-2xl md:text-3xl md:pb-2 font-sorbw flickertitle2">
             {t("skills.backEndSkills")}
           </h2>
@@ -43,7 +43,7 @@ const SkillsText = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="flex flex-col pb-2 lg:pb-0 lg:items-center">
+        <div className="flex flex-col items-center pb-2 lg:pb-0">
           <h2 className="text-2xl md:text-3xl md:pb-2 font-sorbw flickertitle">
             {t("skills.methodSkills")}
           </h2>
@@ -59,7 +59,7 @@ const SkillsText = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="flex flex-col pb-2 lg:pb-0 lg:items-center">
+        <div className="flex flex-col items-center pb-2 lg:pb-0">
           <h2 className="text-2xl md:pb-2 md:text-3xl font-sorbw title">
             {t("skills.softSkills")}
           </h2>
