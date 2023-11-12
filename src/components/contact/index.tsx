@@ -1,5 +1,6 @@
-import ContactFooter from "@components/contact/ContactFooter";
 import SectionContainer from "@components/sectionContainer";
+
+import ContactFooter from "./ContactFooter";
 import ContactForm from "./ContactForm";
 import ContactTitle from "./ContactTitle";
 

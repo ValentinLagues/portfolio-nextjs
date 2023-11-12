@@ -1,9 +1,8 @@
-import { ReactNode } from "react";
 import Head from "next/head";
+import { ReactNode } from "react";
 
 import Body from "./Body";
 import Header from "./header";
-import Footer from "../contact/ContactFooter";
 
 interface ILayoutProps {
   children: ReactNode;

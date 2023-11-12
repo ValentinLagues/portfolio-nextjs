@@ -5,7 +5,7 @@ import HomeComponent from "@components/home";
 import ProjectsComponent from "@components/projects";
 import SkillsComponent from "@components/skills";
 import { motion } from "framer-motion";
-import { useEffect, useContext } from "react";
+import { useContext, useEffect } from "react";
 import AppContext from "src/context/Context";
 
 const Home: React.FC = () => {

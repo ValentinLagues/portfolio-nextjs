@@ -1,10 +1,10 @@
-import emailjs from "emailjs-com";
-import { FieldValues, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
+import emailjs from "emailjs-com";
+import Image from "next/image";
+import { useState } from "react";
+import { FieldValues, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import * as yup from "yup";
-import { useState } from "react";
-import Image from "next/image";
 
 type ContactSubmitForm = {
   name: string;
