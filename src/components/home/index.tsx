@@ -1,6 +1,7 @@
 import SectionContainer from "@components/sectionContainer";
-import HomeTitle from "./HomeTitle";
 import Lang from "@components/UI/Lang";
+
+import HomeTitle from "./HomeTitle";
 
 const HomeComponent = (): JSX.Element => {
   return (

@@ -1,4 +1,5 @@
 import SectionContainer from "@components/sectionContainer";
+
 import ProjectSlider from "./ProjectSlider";
 import ProjectsTitle from "./ProjectsTitle";
 

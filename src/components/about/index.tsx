@@ -1,6 +1,7 @@
 import SectionContainer from "@components/sectionContainer";
-import AboutTitle from "./AboutTitle";
+
 import AboutText from "./AboutText";
+import AboutTitle from "./AboutTitle";
 
 const AboutComponent = (): JSX.Element => {
   return (
