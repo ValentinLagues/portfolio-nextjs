@@ -42,7 +42,7 @@ const ContactFooter = (): JSX.Element => {
         06 87 17 48 25
       </p>
       <a
-        href="/docs/CV_Valentin_Lagues.pdf"
+        href="/docs/Valentin_Lagues_Resume.pdf"
         download="ValentinLagues.pdf"
         className="flex flex-row justify-center w-full text-xs text-white md:w-1/3 font-sorw"
       >
