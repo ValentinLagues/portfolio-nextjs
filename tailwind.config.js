@@ -21,8 +21,8 @@ module.exports = {
         sorbw: ["SOR2BW", "sans-serif"],
       },
       fontSize: {
-        xxs: ".70rem",
-        xxxs: ".60rem",
+        xxs: ".60rem",
+        xxxs: ".50rem",
       },
     },
   },

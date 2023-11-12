@@ -11,8 +11,8 @@ import frontEndSkillsListTrad from "../../content/skills/frontEndSkillsList.json
 import backEndSkillsListTrad from "../../content/skills/backEndSkillsList.json";
 import methodSkillsListTrad from "../../content/skills/methodSkillsList.json";
 import softSkillsListTrad from "../../content/skills/softSkillsList.json";
-import projectsTrad from "../../content/projects.json";
-import projectsListTrad from "../../content/projectsList.json";
+import projectsTrad from "../../content/projects/projects.json";
+import projectsListTrad from "../../content/projects/projectsList.json";
 import contactTrad from "../../content/contact.json";
 
 const header = headerTrad.fr;
