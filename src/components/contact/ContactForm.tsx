@@ -63,7 +63,7 @@ const ContactForm = (): React.ReactElement => {
           onSubmit={handleSubmit(onSubmit)}
         >
           <div className="flex flex-col h-24 mb-3">
-            <label className="text-2xl font-sorbw flickertitle">
+            <label className="text-2xl md:text-3xl font-sorbw flickertitle">
               {t("contact.labelName")}
             </label>
             <input
@@ -79,7 +79,7 @@ const ContactForm = (): React.ReactElement => {
             </div>
           </div>
           <div className="flex flex-col h-24 my-3">
-            <label className="text-2xl font-sorbw title">
+            <label className="text-2xl md:text-3xl font-sorbw title">
               {t("contact.labelEmail")}
             </label>
             <input
@@ -95,7 +95,7 @@ const ContactForm = (): React.ReactElement => {
             </div>
           </div>
           <div className="flex flex-col my-3 h-36">
-            <label className="text-2xl font-sorbw flickertitle2">
+            <label className="text-2xl md:text-3xl font-sorbw flickertitle2">
               {t("contact.labelMessage")}
             </label>
             <textarea
@@ -122,13 +122,13 @@ const ContactForm = (): React.ReactElement => {
         </form>
       )}
       {mailSent === true && (
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center py-20">
           <div className="relative hidden p-4 md:block">
             <Image
               height={150}
               width={300}
-              src="https://res.cloudinary.com/dnw0kiu56/image/upload/v1657181379/portfolio/jackSOR_pqj9zt.gif"
-              alt="about-image"
+              src="https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/jackSOR.gif?alt=media&token=852bdf0e-9279-49db-b15a-d2b323954737"
+              alt="email-sent-image"
               priority={true}
             />
           </div>

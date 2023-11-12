@@ -30,7 +30,7 @@ const Home: React.FC = () => {
         >
           <div className="flex items-center justify-center">
             <video
-              src="https://res.cloudinary.com/dnw0kiu56/video/upload/v1657412699/portfolio/landingpage_gpt1ba.mp4"
+              src="https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/landing-page.mp4?alt=media&token=4b9af65f-b75a-415c-8620-a6068d3f9892"
               autoPlay
               muted
               width={800}

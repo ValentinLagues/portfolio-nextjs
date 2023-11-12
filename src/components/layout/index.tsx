@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import Body from "./Body";
 import Header from "./header";
-import Footer from "./Footer";
+import Footer from "../contact/ContactFooter";
 
 interface ILayoutProps {
   children: ReactNode;
@@ -25,7 +25,6 @@ const Layout = ({ children }: ILayoutProps): JSX.Element => {
       </Head>
       <Header />
       <Body>{children}</Body>
-      <Footer />
     </div>
   );
 };

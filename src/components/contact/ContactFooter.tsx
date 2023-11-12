@@ -22,7 +22,7 @@ const ContactFooter = (): JSX.Element => {
   const { t } = useTranslation();
 
   return (
-    <div className="relative z-50 flex flex-col items-center w-full gap-4 pb-10 lg:flex-row">
+    <div className="relative z-50 flex flex-col items-center w-full gap-4 pb-10 lg:pb-0 lg:pt-8 lg:flex-row">
       <div className="flex flex-row justify-center w-full gap-8 md:w-1/3">
         {socialLinks.map((link) => (
           <div key={link.id} className="relative w-9 h-9 md:w-10 md:h-10">
@@ -43,7 +43,7 @@ const ContactFooter = (): JSX.Element => {
       </p>
       <a
         href="/docs/Valentin_Lagues_Resume.pdf"
-        download="ValentinLagues.pdf"
+        download="Valentin_Lagues.pdf"
         className="flex flex-row justify-center w-full text-xs text-white md:w-1/3 font-sorw"
       >
         <p>{t("footer.resume")}</p>
