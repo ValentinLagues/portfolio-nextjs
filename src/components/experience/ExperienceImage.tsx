@@ -7,7 +7,7 @@ const ExperienceImage = (): JSX.Element => {
         <Image
           height={200}
           width={400}
-          src="https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/hacker-static.jpg?alt=media&token=367f7514-1f5f-4547-acd5-18493e000fbf"
+          src="https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/hacker-static.jpg?alt=media&token=a1c47ee5-76ad-473e-b470-308bc5c39b07"
           alt="about-image"
           priority={true}
         />

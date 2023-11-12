@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+
 import AboutImage from "./AboutImage";
 
 const AboutText = (): JSX.Element => {

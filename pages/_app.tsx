@@ -1,13 +1,14 @@
-import React from "react";
-import { AppProps } from "next/app";
-import "tailwindcss/tailwind.css";
-import "@styles/global.css";
 import "../i18n";
-import Layout from "@components/layout";
-import { AppContextProvider } from "src/context/Context";
-import { DefaultSeo } from "next-seo";
+import "@styles/global.css";
+import "tailwindcss/tailwind.css";
+
 import ErrorBoundary from "@components/error/ErrorBoundary";
 import ErrorFallback from "@components/error/ErrorFallback";
+import Layout from "@components/layout";
+import { DefaultSeo } from "next-seo";
+import { AppProps } from "next/app";
+import React from "react";
+import { AppContextProvider } from "src/context/Context";
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (

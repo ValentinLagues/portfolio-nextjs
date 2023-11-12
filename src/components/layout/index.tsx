@@ -1,9 +1,8 @@
-import { ReactNode } from "react";
 import Head from "next/head";
+import { ReactNode } from "react";
 
 import Body from "./Body";
 import Header from "./header";
-import Footer from "./Footer";
 
 interface ILayoutProps {
   children: ReactNode;
@@ -25,7 +24,6 @@ const Layout = ({ children }: ILayoutProps): JSX.Element => {
       </Head>
       <Header />
       <Body>{children}</Body>
-      <Footer />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import AppContext from "src/context/Context";
+
 import { setIndexSlider } from "../../hooks/utils";
 
 interface IProps {

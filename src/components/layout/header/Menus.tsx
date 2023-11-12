@@ -35,7 +35,7 @@ const Menus = (): JSX.Element => {
                 <div className="hidden w-full lg:block ">
                   <nav className="justify-between w-full md:flex md:flex-row">
                     {sectionsLinks.map((link) => (
-                      <div id="sound" key={link.id}>
+                      <div key={link.id}>
                         <p
                           className={`gap-8 lg:text-base xl:text-lg text-white hover:scale-125 cursor-pointer ${link.style}`}
                           onClick={() => {
@@ -88,13 +88,7 @@ const Menus = (): JSX.Element => {
                         variants={variations}
                       >
                         <p
-                          className={`text-base md:text-xl text-white cursor-pointer ${
-                            link.id === 2
-                              ? "navbarflickertitle"
-                              : link.id === 4
-                              ? "navbarflickertitle2"
-                              : "navbartitle"
-                          }`}
+                          className={`text-base md:text-xl text-white cursor-pointer navbartitle`}
                           onClick={() => handleClick(link["section-id"])}
                         >
                           {t(`header.label${link.label}`)}

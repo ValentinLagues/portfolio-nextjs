@@ -1,9 +1,10 @@
 import { useTranslation } from "react-i18next";
-import SkillsImage from "./SkillsImage";
-import softSkills from "src/config/skills/softSkills";
-import frontEndSkills from "src/config/skills/frontEndSkills";
 import backEndSkills from "src/config/skills/backEndSkills";
+import frontEndSkills from "src/config/skills/frontEndSkills";
 import methodSkills from "src/config/skills/methodSkills";
+import softSkills from "src/config/skills/softSkills";
+
+import SkillsImage from "./SkillsImage";
 
 const SkillsText = (): JSX.Element => {
   const { t } = useTranslation();
