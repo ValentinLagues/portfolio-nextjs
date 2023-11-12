@@ -1,0 +1,18 @@
+{
+    "en": {
+        "dateApprenticeship": "09/2022 - 09/2023",
+        "labelApprenticeship": "Advanced web developer apprenticeship (1 year)",
+        "missionApprenticeship": "Technologies learned : Docker, Continuous integration and continuous deployment (github actions), React, Typescript, React Native, Node.JS, GraphQL, tests (Jest)",
+        "dateInitial": "09/2021 - 02/2022",
+        "labelInitial": "Web developer training (6 months)",
+        "missionInitial": "Technologies learned : Javascript, Node.Js, React, SQL, Figma, Agile"
+    },
+    "fr": {
+        "dateApprenticeship": "09/2022 - 09/2023",
+        "labelApprenticeship": "Formation en alternance Developpeur web avance (1 an)",
+        "missionApprenticeship": "Technologies apprises : Docker, Integration et Developpement continu (github actions), React, Typescript, React Native, Node.JS, GraphQL, tests d'integration (Jest)",
+        "dateInitial": "09/2021 - 02/2022",
+        "labelInitial": "Formation Developpeur web/web mobile (6 mois)",
+        "missionInitial": "Technologies apprises : Javascript, Node.Js, React, SQL, Figma, Methode agile"
+    }
+}

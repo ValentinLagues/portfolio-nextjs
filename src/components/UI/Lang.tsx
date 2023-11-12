@@ -34,7 +34,7 @@ const Lang = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-6">
       <p className="text-xs text-white md:text-lg font-sorw animate-pulse">
-        {t("options.language")}
+        {t("home.language")}
       </p>
       <div className="flex flex-row justify-center w-full gap-10 pt-4 text-xs cursor-pointer md:text-base">
         {langArray.map((language) => (

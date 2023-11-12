@@ -1,0 +1,28 @@
+{
+    "en": {
+        "title": "PROJECTS",
+        "contextYanport" : "YANPORT",
+        "contextDigitalCopilote": "DIGITAL COPILOTE",
+        "contextApprenticeshipWCS": "WCS APPRENTICESHIP",
+        "contextTrainingWCS": "WCS TRAINING",
+        "contextPersonnal": "PERSONNAL PROJECT",
+        "tech": "Technologies used for the project",
+        "link": "Deployed link",
+        "githubFront": "Github",
+        "githubBack": "Github Back",
+        "noLink": "No link, the company has filed for bankruptcy"
+    },
+    "fr": {
+        "title": "PROJETS",
+        "contextYanport" : "YANPORT",
+        "contextDigitalCopilote": "DIGITAL COPILOTE",
+        "contextApprenticeshipWCS": "ALTERNANCE WCS",
+        "contextTrainingWCS": "FORMATION WCS",
+        "contextPersonnal": "PROJET PERSONNEL",
+        "tech": "Technologies utilisees",
+        "link": "Lien deploye",
+        "githubFront": "Github",
+        "githubBack": "Github Back",
+        "noLink": "Pas de lien, l'entreprise a fait faillite"
+    }
+}

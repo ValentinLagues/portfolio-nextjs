@@ -3,7 +3,7 @@ import Image from "next/image";
 const SkillsImage = (): JSX.Element => {
   return (
     <div>
-      <div className="block pb-4 lg:hidden">
+      <div className="flex justify-center pb-4 lg:hidden">
         <Image
           height={200}
           width={400}

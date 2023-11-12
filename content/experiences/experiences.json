@@ -1,0 +1,14 @@
+{
+    "en": {
+        "title": "PROFESSIONAL EXPERIENCE",
+        "subtitleGraduations": "GRADUATIONS",
+        "subtitleTrainings": "TRAININGS",
+        "subtitleCompanies": "COMPANIES"
+    },
+    "fr": {
+        "title": "EXPERIENCE PROFESSIONNELLE",
+        "subtitleGraduations": "DIPLOMES",
+        "subtitleTrainings": "FORMATIONS",
+        "subtitleCompanies": "ENTREPRISES"
+    }
+}

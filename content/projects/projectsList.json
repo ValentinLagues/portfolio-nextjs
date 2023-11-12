@@ -1,0 +1,24 @@
+{
+    "en": {
+        "descriptionYanportApp": "Application designed for real estate professionals to create personalized estimation files. Update to version V2 of the application, bug fixes, and implementation of unit tests.",
+        "descriptionYanportSite": "Showcase website for the company that allows potential clients to learn about the offered services. Redesign of the website following a new visual identity for V2, and implementation of the blog section.",
+        "descriptionMetamerch": "E-commerce website developed within the Digital Copilote company created to sell clothing purchasable with cryptocurrencies through a Metamask wallet. Design and development of the website.",
+        "descriptionDjego": "Website developed within the Digital Copilote company for the music band Djego to promote their music and their universe. This website is a commission carried out by the agency. Design and development of the website.",
+        "descriptionDrone" : "E-commerce website developed within Digital Copilote company created to sell a model of drone purchasable with cryptocurrencies through a MetaMask wallet. Design and development of the website.",
+        "descriptionWhodrives": "Carpooling website on the BlaBlaCar model developed over 8 months (1 week per month) as part of my apprenticeship at the Wild Code School. Design, back-end and front-end development, management via Docker.",
+        "descriptionWildHeroes":"Website developed in 5 weeks during my Wild Code School program to create a React App from A to Z using Agile and API calls. Design and development of the website.",
+        "descriptionOlentzero":"Website developed in only 31 hours during a Wild Code School national hackathon to create a musical advent calendar. Design and development of the website.",
+        "descriptionIHoover": "Application developed in 3 days destined to control a hoover on a predefined surface. The idea came to me after a technical test for my apprenticeship. Design and development of the website."
+        },
+    "fr": {
+        "descriptionYanportApp": "Application destinee aux acteurs de l'immobilier pour creer des dossiers d'estimations personnalises. Mise a jour de la version V2 de l'application, correction de bugs et implantation de tests unitaires.",
+        "descriptionYanportSite": "Site vitrine de l'entreprise qui permet aux potentiels clients de se renseigner sur les services proposes. Refonte du site en suivant une nouvelle charte graphique pour la V2, mise en place de la section blog.",
+        "descriptionMetamerch": "Site e-commerce developpe au sein de l'entreprise Digital Copilote cree pour vendre des vetements achetables en cryptomonnaies via un portefeuille Metamask. Maquettage et developpement du site.",
+        "descriptionDjego":"Site developpe au sein de l'entreprise Digital Copilote pour le groupe Djego afin de promouvoir leur musique et leur univers. Ce site est une commande realisee par l'agence. Maquettage et developpement du site.",
+        "descriptionDrone": "Site e-commerce developpe au sein de l'entreprise Digital Copilote cree pour vendre un modele de drone achetable en cryptomonnaies via un portefeuille Metamask. Maquettage et developpement du site",
+        "descriptionWhodrives": "Site de covoiturage sur le modele de Blablacar developpe en 8 mois (1 semaine/mois) dans le cadre de mon alternance a la Wild Code School. Maquettage, developpement du back-end et du front-end, gestion via Docker.",
+        "descriptionWildHeroes":"Site developpe en 5 semaines durant ma formation a la Wild Code School dans le but de creer un site de A a Z avec React en utilisant la methode Agile et les appels API. Maquettage et developpement du site.",
+        "descriptionOlentzero":"Site developpe en seulement 31 heures pendant un hackathon national a la Wild Code School dans le but de concevoir un calendrier de l'avent musical. Maquettage et developpement du site.",
+        "descriptionIHoover": "Application developpee en 3 jours qui permet de controler un petit aspirateur sur une surface predefinie dont l'idee m'est venue apres un test technique pour mon alternance. Maquettage et developpement du site."
+        }
+}
