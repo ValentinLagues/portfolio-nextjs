@@ -41,13 +41,13 @@ const ContactFooter = (): JSX.Element => {
       <p className="flex flex-row justify-center w-full text-xs text-white md:w-1/3 font-sorw">
         06 87 17 48 25
       </p>
-      <a
+      {/* <a
         href="/docs/Valentin_Lagues_Resume.pdf"
         download="Valentin_Lagues.pdf"
         className="flex flex-row justify-center w-full text-xs text-white md:w-1/3 font-sorw"
       >
         <p>{t("footer.resume")}</p>
-      </a>
+      </a> */}
     </div>
   );
 };
