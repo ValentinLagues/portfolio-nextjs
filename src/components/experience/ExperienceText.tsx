@@ -14,48 +14,48 @@ const ExperienceText = (): JSX.Element => {
       <div className="flex flex-col text-xxs lg:text-xs lg:w-2/3 text-clip md:text-justify font-sorw">
         <div>
           <h2 className="text-2xl md:text-3xl font-sorbw title">
-            {t("experience.subtitle-1")}
+            {t("experiences.subtitleGraduations")}
           </h2>
           {graduations.map((graduation) => (
             <p
               key={graduation.id}
-              className="flex pb-3 leading-5 text-clip md:text-justify font-sorw"
+              className="flex pb-2 leading-5 text-clip md:text-justify font-sorw"
             >
-              {t(`experience.date${graduation.date}`)} -{" "}
-              {t(`experience.label${graduation.label}`)}
+              {t(`graduationsList.date${graduation.date}`)} -{" "}
+              {t(`graduationsList.label${graduation.label}`)}
             </p>
           ))}
         </div>
 
         <div>
           <h2 className="text-2xl md:text-3xl font-sorbw flickertitle">
-            {t("experience.subtitle-2")}
+            {t("experiences.subtitleTrainings")}
           </h2>
           {trainings.map((training) => (
             <p
               key={training.id}
-              className="flex pb-3 leading-5 text-clip md:text-justify font-sorw"
+              className="flex pb-2 leading-5 text-clip md:text-justify font-sorw"
             >
-              {t(`experience.date${training.date}`)} :{" "}
-              {t(`experience.label${training.label}`)} <br />
-              {t(`experience.mission${training.mission}`)}
+              {t(`trainingsList.date${training.date}`)} :{" "}
+              {t(`trainingsList.label${training.label}`)} <br />
+              {t(`trainingsList.mission${training.mission}`)}
             </p>
           ))}
         </div>
 
         <div>
           <h2 className="text-2xl md:text-3xl font-sorbw title">
-            {t("experience.subtitle-3")}
+            {t("experiences.subtitleCompanies")}
           </h2>
           {companies.map((company) => (
             <p
               key={company.id}
-              className="flex pb-3 leading-5 text-clip md:text-justify font-sorw"
+              className="flex pb-2 leading-5 text-clip md:text-justify font-sorw"
             >
-              {t(`experience.date${company.date}`)} :{" "}
-              {t(`experience.label${company.label}`)} <br />
-              {t(`experience.mission${company.mission}`)} <br />
-              {t(`experience.tech${company.tech}`)}
+              {t(`companiesList.date${company.date}`)} :{" "}
+              {t(`companiesList.label${company.label}`)} <br />
+              {t(`companiesList.mission${company.mission}`)} <br />
+              {t(`companiesList.tech${company.tech}`)}
             </p>
           ))}
         </div>

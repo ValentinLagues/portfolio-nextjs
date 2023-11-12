@@ -5,7 +5,7 @@ const ExperienceTitle = (): JSX.Element => {
   return (
     <div className="w-full text-white">
       <h1 className="flex mb-6 text-4xl flickertitle2 md:text-7xl">
-        {t("experience.title")}
+        {t("experiences.title")}
       </h1>
     </div>
   );
