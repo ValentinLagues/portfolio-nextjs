@@ -43,7 +43,7 @@ const ContactFooter = (): JSX.Element => {
       </p>
       <a
         className="flex flex-row justify-center w-full text-xs text-white md:w-1/3 font-sorw"
-        href="/docs/Valentin_lagues_resume.pdf"
+        href="/docs/CV_Valentin_Lagues.pdf"
         download="Valentin_lagues"
       >
         <p>{t("footer.resume")}</p>
