@@ -43,9 +43,8 @@ const ContactFooter = (): JSX.Element => {
       </p>
       <a
         className="flex flex-row justify-center w-full text-xs text-white md:w-1/3 font-sorw"
-        href="https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/Valentin_Lagues_Resume.pdf?alt=media&token=106e4504-b722-493f-a20c-8cd7aba25945"
-        target="_blank"
-        rel="noreferrer noopener"
+        href="/docs/Valentin_lagues_resume.pdf"
+        download="Valentin_lagues"
       >
         <p>{t("footer.resume")}</p>
       </a>
