@@ -1,14 +1,14 @@
 {
     "en": {
         "dateCDA": "09/2023",
-        "labelCDA": "RNCF Professional Title Application Developer Designer (CDA)",
+        "labelCDA": "RNCP Professional Certificate Application Developer Designer (CDA)",
         "dateDWWM": "09/2022",
-        "labelDWWM": "RNCF professional Title Web/Mobile Web Developer"
+        "labelDWWM": "RNCP professional Certificate Web/Mobile Web Developer"
     },
     "fr": {
         "dateCDA": "09/2023",
-        "labelCDA": "Titre Professionnel RNCF Concepteur Developpeur d'Applications (CDA) (equivalent Bac +4)",
+        "labelCDA": "Titre Professionnel RNCP Concepteur Developpeur d'Applications (CDA) (Niveau 6 - eq. Bac +3/+4)",
         "dateDWWM": "09/2022",
-        "labelDWWM": "Titre Professionnel RNCF Developpeur Web/Web Mobile (DWWM) (equivalent Bac +2)"
+        "labelDWWM": "Titre Professionnel RNCP Developpeur Web/Web Mobile (DWWM) (Niveau 5 - eq. Bac +2)"
     }
 }
