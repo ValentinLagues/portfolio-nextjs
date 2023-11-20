@@ -43,7 +43,7 @@ const ContactFooter = (): JSX.Element => {
       </p>
       <a
         className="flex flex-row justify-center w-full text-xs text-white md:w-1/3 font-sorw"
-        href="https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/Valentin_lagues_resume.pdf?alt=media&token=87031bb7-2b8a-4670-8b15-bf010f8b05cf"
+        href="https://firebasestorage.googleapis.com/v0/b/portfolio-9f1f5.appspot.com/o/CV_Valentin_Lagues.pdf?alt=media&token=f9dc850e-cdd3-4a4e-af37-2477613cde19"
         target="_blank"
         rel="noreferrer noopener"
       >
